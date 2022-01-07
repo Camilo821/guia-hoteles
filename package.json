@@ -4,6 +4,7 @@
   "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server"  
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "Camilo Arboleda",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/camiloarboleda/guia-hoteles#readme"
+  "homepage": "https://bitbucket.org/camiloarboleda/guia-hoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
