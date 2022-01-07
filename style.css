@@ -1,0 +1,56 @@
+* {
+    font-family: -apple-system, Ubuntu;
+
+}
+.columna {
+    border: 2px solid #000;
+}
+.jumbotron {
+    background-color: #e7e9ee;
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.boton {
+    background-color: #e7e9ee;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: center;
+}
+.articulo-titulo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    font-weight: bold;
+}
+.articulo-parrafo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+}
+.fila {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.boton:hover {
+    background-color: #000;
+    color: #e7e9ee;
+}
