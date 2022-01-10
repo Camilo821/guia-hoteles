@@ -6,11 +6,13 @@
     border: 2px solid #000;
 }
 .jumbotron {
-    background-color: #e7e9ee;
+    background-color: #2673a7;
     height: 90px;
     width: 100%;
     justify-content: center;
     align-items: center;
+    box-shadow: 6px;
+    color: #ffffff;
 }
 .jumbotron h1{
     text-align: center;
@@ -19,9 +21,9 @@
     display: flex;
 }
 .boton {
-    background-color: #e7e9ee;
+    background-color: #2673a7;
     border: none;
-    color: #000;
+    color: #ffffff;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -52,11 +54,12 @@
     margin-right: 50px;
 }
 .boton:hover {
-    background-color: #000;
-    color: #e7e9ee;
+    background-color: #e0e0e0;
+    color: #2673a7;
 }
 footer {
-    background-color: #e7e9ee;
+    background-color: #e0e0e0;
+    color: #000000;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -74,4 +77,10 @@ footer {
     flex: 1 150px;
     padding: 2px 5px 2px 5px;
     margin: 5px;
+}
+.r {
+    text-decoration: none;
+}
+.f, .t, .i{
+    color: #000000;
 }
