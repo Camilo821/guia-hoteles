@@ -30,6 +30,7 @@
     margin: 4px 2px;
     cursor: pointer;
     justify-content: center;
+    width: 100%;
 }
 .articulo-titulo {
     text-align: center;
@@ -60,11 +61,17 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 10px;
 }
 .footer {
     text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: 5px;
+}
+.card-hotel{
+    flex: 1 150px;
+    padding: 2px 5px 2px 5px;
     margin: 5px;
 }
