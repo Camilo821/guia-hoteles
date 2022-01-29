@@ -27,9 +27,9 @@
             <ul class="navbar-nav mr-auto margin">
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">Nosotros</a></li>
-                <li class="nav-item"><a href="prices.html" class="nav-link">Precios</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">Precios</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Terminos y condiciones</a></li>
-                <li class="nav-item"><a href="#" class="nav-link active">Contacto</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
             </ul>
         </div>
     </nav>
@@ -40,55 +40,59 @@
         <nav class="breadcrumb-style" aria-label="breadcrumb" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                <li class="breadcrumb-item" aria-current="page">Precios</li>
             </ol>
         </nav>
     </div>
     <div class="container">
-        <h1>Dejame tu comentario</h1>
-        <form>
-            <div class="form-row">
-                <div class="col-sm-6 form-group">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
-                </div>
-                <div class="col-sm-6 form-group">
-                    <label for="apellido">Apellido</label>
-                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
-                </div>  
-            </div>
-            <div class="form-row">
-                <div class="col form-group">
-                    <label for="domicilio">Domicilio</label>
-                    <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
-                </div>
-                <div class="col form-group">
-                    <label for="departamento">Departamento</label>
-                    <select name="departamento" id="departamento" class="form-control">
-                        <option>Antioquia</option>
-                        <option>Cundinamarca</option>
-                        <option>Quindío</option>
-                        <option>Boyacá</option>
-                        <option>Meta</option>
-                    </select>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="comentario">Comentario</label>
-                <textarea class="form-control" id="comentario" placeholder="Escribe aquí tu comentario" rows="10"></textarea>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Check" id="flexCheckDefault">
-                <label class="form-check-label" for="Check">
-                  Quiero que me contacten
-                </label>
-            </div>
-            <button class="boton enviar" type="submit">Enviar</button>
-        </form>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <th scope="col">Calidad</th>
+                <th scope="col">Pinamar</th>
+                <th scope="col">Mar de Plata</th>
+                <th scope="col">San Clemente</th>
+                <th scope="col">Santa Teresita</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"><i class="bi bi-star-fill"></i></th>
+                    <td>$100</td>
+                    <td>$120</td>
+                    <td>$140</td>
+                    <td>$160</td>
+                </tr>
+                <tr>
+                    <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></th>
+                    <td>$200</td>
+                    <td>$240</td>
+                    <td>$280</td>
+                    <td>$320</td>
+                </tr>
+                <tr>
+                    <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></th>
+                    <td>$300</td>
+                    <td>$360</td>
+                    <td>$420</td>
+                    <td>$480</td>
+                </tr>
+                <tr>
+                    <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></th>
+                    <td>$400</td>
+                    <td>$480</td>
+                    <td>$560</td>
+                    <td>$640</td>
+                </tr>
+                <tr>
+                    <th scope="row"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></th>
+                    <td>$500</td>
+                    <td>$600</td>
+                    <td>$700</td>
+                    <td>$800</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     </div>
     <footer>
         <div class="row footer">
