@@ -95,3 +95,12 @@ footer {
 .enviar {
     margin-top: 15px;
 }
+.card-body {
+    text-align: center;
+}
+.card-title {
+    font-weight: bold;
+}
+.card {
+    border: none;
+}
