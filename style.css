@@ -1,6 +1,7 @@
 :root {
     --main-blue: #2673a7;
     --main-grey: #e0e0e0;
+    --check-green: #198754;
   }
 * {
     font-family: -apple-system, Ubuntu;
@@ -138,4 +139,25 @@ footer {
     background-color: var(--main-grey);
     color: var(--main-blue);
     border: none;
+}
+.checkm {
+    color: var(--check-green);
+}
+/*haz que se quiten los bordes redondeados de btn-i y btn-d al reducir el tamaño del dispositivo*/
+@media (max-width: 575.98px) {
+    .btn-i {
+        border-radius: 0;
+        width: 100%;
+        margin-right: 0;
+    }
+    .btn-c {
+        border-radius: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    .btn-d {
+        border-radius: 0;
+        width: 100%;
+        margin-left: 0;
+    }
 }
