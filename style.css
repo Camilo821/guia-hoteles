@@ -38,8 +38,7 @@
     width: 100%;
 }
 .fila {
-    margin-left: 50px;
-    margin-right: 50px;
+    align-items: center;
 }
 .boton:hover {
     background-color: #e0e0e0;
@@ -96,4 +95,14 @@ footer {
 }
 .mt25 {
     margin-top: 25px;
+}
+.articulo-titulo {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Roboto, Ubuntu;
+}
+.btn {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }

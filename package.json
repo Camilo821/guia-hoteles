@@ -12,7 +12,7 @@
   },
   "author": "Camilo Arboleda",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/camiloarboleda/guia-hoteles#readme",
+  "homepage": "index.html",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },

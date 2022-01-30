@@ -83,21 +83,40 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    <div class="d-flex fila flex-wrap">
-        <div class="d-flex flex-column card-hotel">
-            <p class="articulo-titulo">¿Como funciona?</p>
-            <p class="articulo-parrafo">Busca los hoteles de acuerdo a tu pereferencia</p>
+    <div class="container content">
+      <div class="row">
+        <div class="col-sm-4">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#funciona" aria-expanded="false" aria-controls="multi-collapse1">¿Como funciona?</button>
         </div>
-        <div class="d-flex flex-column card-hotel">
-            <p class="articulo-titulo">¿Donde puedo reservar?</p>
-            <p class="articulo-parrafo">Elige una ciudad que te interese y luego realiza la reserva con tus datos</p>
+        <div class="col-sm-4">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#reserva" aria-expanded="false" aria-controls="multi-collapse2">¿Donde puedo reservar?</button>
         </div>
-        <div class="d-flex flex-column card-hotel">
-            <p class="articulo-titulo">¿Como pago?</p>
-            <p class="articulo-parrafo">Utiliza tu tarjeta de crédito</p>
+        <div class="col-sm-4">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pago" aria-expanded="false" aria-controls="multi-collapse3">¿Como pago?</button>
         </div>
     </div>
-    <div class="d-flex fila flex-wrap">
+    <div class="d-flex fila flex-wrap row">
+        <div class="d-flex flex-column card-hotel col-sm-4">
+            <div class="collapse multi-collapse" id="funciona">
+                <p class="articulo-titulo">¿Como funciona?</p>
+                <p class="articulo-parrafo">Busca los hoteles de acuerdo a tu pereferencia</p>
+            </div>
+        </div>
+        <div class="d-flex flex-column card-hotel col-sm-4">
+            <div class="collapse multi-collapse" id="reserva">
+                <p class="articulo-titulo">¿Donde puedo reservar?</p>
+                <p class="articulo-parrafo">Elige una ciudad que te interese y luego realiza la reserva con tus datos</p>
+            </div>
+        </div>
+        <div class="d-flex flex-column card-hotel col-sm-4">
+            <div class="collapse multi-collapse" id="pago">
+                <p class="articulo-titulo">¿Como pago?</p>
+                <p class="articulo-parrafo">Utiliza tu tarjeta de crédito</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="d-flex fila flex-wrap container content">
         <div class= "card d-flex flex-column justify-content-between card-hotel">
             <img src="images/img1.jpg" class="card-img-top" alt="paisaje">
             <div class="card-body">
