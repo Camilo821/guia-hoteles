@@ -37,21 +37,6 @@
     justify-content: center;
     width: 100%;
 }
-.articulo-titulo {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 20px;
-    font-weight: bold;
-}
-.articulo-parrafo{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 20px;
-}
 .fila {
     margin-left: 50px;
     margin-right: 50px;
