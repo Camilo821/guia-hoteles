@@ -20,7 +20,7 @@
   <body>
     <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
         <a href="index.html" class="navbar-brand margin">Hoteles</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -109,15 +109,48 @@
             </div>
         <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
             <div class="d-flex justify-content-center mt25">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 100%;">
                     <div class="card-header" style="background-color: #212529; color: #ffffff;">
                     <p style="font-weight: bold;">Tarjetas aceptadas</p>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Tarjeta Básica</li>
-                        <li class="list-group-item">Tarjeta VIP</li>
-                        <li class="list-group-item">Tarjeta Black</li>
-                    </ul>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              Tarjeta Básica
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>Suspendisse ac mollis tellus, vel tincidunt dui. Nunc in euismod mi. Integer accumsan metus eu ante pharetra dignissim. Cras ut ultrices ligula. </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Tarjeta VIP
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>Suspendisse ac mollis tellus, vel tincidunt dui. Nunc in euismod mi. Integer accumsan metus eu ante pharetra dignissim. Cras ut ultrices ligula. </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Tarjeta Black
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>Suspendisse ac mollis tellus, vel tincidunt dui. Nunc in euismod mi. Integer accumsan metus eu ante pharetra dignissim. Cras ut ultrices ligula. </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>

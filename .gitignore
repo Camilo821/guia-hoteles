@@ -15,7 +15,8 @@ svg/
 *.png
 # Log files
 *.log
-
+package.json
+package-lock.json
 # Package files
 *.jar
 
