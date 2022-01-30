@@ -89,3 +89,8 @@ footer {
 .card {
     border: none;
 }
+.carousel {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
