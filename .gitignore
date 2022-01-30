@@ -13,10 +13,6 @@ svg/
 # Compiled Python bytecode
 *.py[cod]
 *.png
-*.img
-*.jpg
-*.jpeg
-/images
 # Log files
 *.log
 
