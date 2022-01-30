@@ -1,3 +1,7 @@
+:root {
+    --main-blue: #2673a7;
+    --main-grey: #e0e0e0;
+  }
 * {
     font-family: -apple-system, Ubuntu;
 }
@@ -9,7 +13,7 @@
 }
 .jumbotron {
     margin-top: 50px;
-    background-color: #2673a7;
+    background-color: var(--main-blue);
     height: 90px;
     width: 100%;
     justify-content: center;
@@ -24,7 +28,7 @@
     display: flex;
 }
 .boton {
-    background-color: #2673a7;
+    background-color: var(--main-blue);
     border: none;
     color: #ffffff;
     padding: 10px 20px;
@@ -41,11 +45,11 @@
     align-items: center;
 }
 .boton:hover {
-    background-color: #e0e0e0;
-    color: #2673a7;
+    background-color: var(--main-grey);
+    color: var(--main-blue);
 }
 footer {
-    background-color: #e0e0e0;
+    background-color: var(--main-grey);
     color: #000000;
     width: 100%;
     justify-content: center;
@@ -72,7 +76,7 @@ footer {
     color: #000000;
 }
 .breadcrumb-style {
-    background-color: #e6eaee;
+    background-color: var(--main-grey);
     padding: 10px;
     margin: 10px;
 }
@@ -105,4 +109,33 @@ footer {
     margin-top: 5px;
     margin-right: 5px;
     margin-left: 5px;
+}
+.btn-i {
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    margin-right: 0;
+}
+.btn-c {
+    border-radius: 0 0 0 0;
+    width: 100%;
+    margin-left: 0;
+}
+.btn-d {
+    border-radius: 0 5px 5px 0;
+    width: 100%;
+    margin-left: 0;
+}
+.btn-primary, .btn-primary:active, .btn-primary:focus, .btn-primary:visited {
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+    border: none;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--main-blue);
+    color: #ffffff;
+}
+.btn-primary:hover {
+    background-color: var(--main-grey);
+    color: var(--main-blue);
+    border: none;
 }
