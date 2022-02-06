@@ -22,7 +22,7 @@
                 <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">Nosotros</a></li>
                 <li class="nav-item"><a href="prices.html" class="nav-link">Precios</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Terminos y condiciones</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"   id="liveToast">Terminos y condiciones</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
             </ul>
         </div>
@@ -120,7 +120,7 @@
         <div class= "card d-flex flex-column justify-content-between card-hotel">
             <img src="images/img1.jpg" class="card-img-top" alt="paisaje">
             <div class="card-body">
-                <p class="card-title">Hotel Barcelona</p>
+                <p class="card-title" data-bs-toggle="tooltip" data-placement="top" title="España">Hotel Barcelona</p>
                 <p class="card-subtitle text-muted">España</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
@@ -132,7 +132,7 @@
         <div class= "card d-flex flex-column justify-content-between card-hotel">
             <img src="images/img2.jpg" class="card-img-top" alt="paisaje">
             <div class="card-body">
-                <p class="card-title">Hotel Buenos Aires</p>
+                <p class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Argentina">Hotel Buenos Aires</p>
                 <p class="card-subtitle text-muted">Argentina</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
@@ -144,7 +144,7 @@
         <div class= "card d-flex flex-column justify-content-between card-hotel">
             <img src="images/img3.jpeg" class="card-img-top" alt="paisaje">
             <div class="card-body">
-                <p class="card-title">Hotel Lima</p>
+                <p class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Perú" >Hotel Lima</p>
                 <p class="card-subtitle text-muted">Perú</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
@@ -156,7 +156,7 @@
         <div class= "card d-flex flex-column justify-content-between card-hotel">
             <img src="images/img4.jpg" class="card-img-top" alt="paisaje">
             <div class="card-body">
-            <p class="card-title">Hotel Rio de Janeiro</p>
+            <p class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Brasil">Hotel Rio de Janeiro</p>
             <p class="card-subtitle text-muted">Brasil</p>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
@@ -169,7 +169,7 @@
         <div class="card d-flex flex-column justify-content-between card-hotel">
             <img src="images/img12.jpg" class="card-img-top" alt="paisaje">
             <div class="card-body">
-                <p class="card-title">Hotel Madrid</p>
+                <p class="card-title" data-bs-toggle="tooltip" data-placement="top" title="España">Hotel Madrid</p>
                 <p class="card-subtitle text-muted">España</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
@@ -181,7 +181,7 @@
         <div class= "d-flex flex-column justify-content-between card card-hotel">
             <img src="images/img6.jpg" class="card-img-top" alt="paisaje">
             <div class="card-body">
-                <p class="card-title">Hotel La Paz</p>
+                <p class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Bolivia">Hotel La Paz</p>
                 <p class="card-subtitle text-muted">Bolivia</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
@@ -193,7 +193,7 @@
         <div class= "card d-flex flex-column justify-content-between card-hotel">
             <img src="images/img7.jpg" class="card-img-top" alt="paisaje">
             <div class="card-body">
-                <p class="card-title">Hotel San Pablo</p>
+                <p class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Perú">Hotel San Pablo</p>
                 <p class="card-subtitle text-muted">Perú</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
@@ -205,7 +205,7 @@
         <div class= "d-flex card flex-column justify-content-between card-hotel">
             <img src="images/img8.jpg" class="card-img-top" alt="paisaje">
             <div class="card-body">
-                <p class="card-title">Hotel Medellín</p>
+                <p class="card-title"  data-bs-toggle="tooltip" data-placement="top" title="Colombia">Hotel Medellín</p>
                 <p class="card-subtitle text-muted">Colombia</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
@@ -217,11 +217,11 @@
     </div>
     <footer>
         <div class="row footer">
-            <p class = "footer"> &copy; 2020 Hoteles</p>
+            <p class = "footer" data-bs-toggle="popover" title="Copyright" data-bs-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."> &copy; 2020 Hoteles</p>
             <div class="col-sm-4 footer">
-                <a class = "footer r"href="https://www.facebook.com"><i class="fab fa-facebook f"></i></a>
-                <a class = "footer r" href="https://www.Twitter.com"><i class="fab fa-twitter t"></i></a>
-                <a class = "footer r" href="https://www.Instagram.com"><i class="fab fa-instagram i"></i></a>
+                <a class = "footer r"href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook f"></i></a>
+                <a class = "footer r" href="https://www.Twitter.com" target="_blank"><i class="fab fa-twitter t"></i></a>
+                <a class = "footer r" href="https://www.Instagram.com" target="_blank"><i class="fab fa-instagram i"></i></a>
             </div>
         </div>
     </footer>
@@ -236,7 +236,7 @@
               Has reservado con éxito en el hotel.
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal"  id="liveToastBtn">Close</button>
             </div>
           </div>
         </div>
@@ -275,6 +275,6 @@
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    
+    <script src="main.js"></script>
   </body>
 </html>
