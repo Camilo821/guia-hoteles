@@ -16,6 +16,10 @@ $white: #fff;
 .margin {
     margin-left: 5px;
 }
+.parrafo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .jumbotron {
     @include margenes(50px, 15px);
     background-color: $blue;

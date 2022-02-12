@@ -2,17 +2,40 @@
   "scripts": {
     "scss": "node-sass -w sass/ -o css/",
     "dev": "lite-server",
-    "watch:scss": "onchange 'sass/*.scss' -- npm run scss"
+    "watch:scss": "onchange 'sass/*.scss' -- npm run scss",
+    "clean": "rinraf dist",
+    "imagemin": "imagemin images/* --out-dir dist/images",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin prices.html -d dist --htmlmin -o dist/prices.html && usemin contact.html -d dist --htmlmin -o dist/contact.html "
   },
   "dependencies": {
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "less": "^4.1.2",
     "node-sass": "^7.0.1",
     "sass": "^1.49.7"
   },
   "devDependencies": {
+    "clean": "^4.0.2",
+    "cssmin": "^0.4.3",
     "currently": "^0.0.8",
+    "grunt": "^1.4.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^2.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-filerev": "^2.3.1",
+    "grunt-usemin": "^3.1.1",
+    "htmlmin": "^0.0.7",
+    "imagemin": "^8.0.1",
+    "jit-grunt": "^0.10.0",
     "lite-server": "^2.6.1",
+    "npm-clean": "^1.0.3",
     "onchange": "^7.1.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "time-grunt": "^2.0.0",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
   }
 }
