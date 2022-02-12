@@ -18,7 +18,7 @@ $white: #fff;
 }
 .jumbotron {
     @include margenes(50px, 15px);
-    background-color: $blue;
+    background-color: $yellow;
     height: 90px;
     width: 100%;
     justify-content: center;

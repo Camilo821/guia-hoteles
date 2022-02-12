@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "scss": "node-sass -w sass/ -o css/",
+    "dev": "lite-server",
+    "watch:scss": "onchange 'sass/*.scss' -- npm run scss"
+  },
+  "dependencies": {
+    "less": "^4.1.2",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.7"
+  },
+  "devDependencies": {
+    "currently": "^0.0.8",
+    "lite-server": "^2.6.1",
+    "onchange": "^7.1.0",
+    "rimraf": "^3.0.2"
+  }
+}
