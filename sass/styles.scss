@@ -1,0 +1,167 @@
+$yellow: #f1c40f;
+$blue: #2673a7;
+$grey: #e0e0e0;
+$green: #198754;
+$white: #fff;
+@mixin margenes ($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+* {
+    font-family: -apple-system, Ubuntu;
+}
+.columna {
+    border: 2px solid #000;
+}
+.margin {
+    margin-left: 5px;
+}
+.jumbotron {
+    @include margenes(50px, 15px);
+    background-color: $blue;
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px;
+    color: $white;
+}
+.jumbotron h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.boton {
+    background-color: $blue;
+    border: none;
+    color: $white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: center;
+    width: 100%;
+}
+.fila {
+    align-items: center;
+}
+.boton:hover {
+    background-color: $grey;
+    color: $blue;
+}
+footer {
+    background-color: $grey;
+    color: #000000;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5px;
+}
+.card-hotel{
+    flex: 1 150px;
+    padding: 2px 5px 2px 5px;
+    margin: 5px;
+}
+.r {
+    text-decoration: none;
+}
+.f, .t, .i{
+    color: #000000;
+}
+.breadcrumb-style {
+    background-color: $grey;
+    padding: 10px;
+    margin: 10px;
+}
+.enviar {
+    margin-top: 15px;
+}
+.card-body {
+    text-align: center;
+}
+.card-title {
+    font-weight: bold;
+}
+.card {
+    border: none;
+}
+.carousel {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+.mt25 {
+    margin-top: 25px;
+}
+.articulo-titulo {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Roboto, Ubuntu;
+}
+.btn {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.btn-i {
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    margin-right: 0;
+}
+.btn-c {
+    border-radius: 0 0 0 0;
+    width: 100%;
+    margin-left: 0;
+}
+.btn-d {
+    border-radius: 0 5px 5px 0;
+    width: 100%;
+    margin-left: 0;
+}
+.btn-primary, .btn-primary:active, .btn-primary:focus, .btn-primary:visited {
+    background-color: $blue;
+    border-color: $blue;
+    border: none;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: $blue;
+    color: #ffffff;
+}
+.btn-primary:hover {
+    background-color: $grey;
+    color: $blue;
+    border: none;
+}
+.checkm {
+    color: $green;
+}
+/*haz que se quiten los bordes redondeados de btn-i y btn-d al reducir el tamaño del dispositivo*/
+@media (max-width: 575.98px) {
+    .btn-i {
+        border-radius: 0;
+        width: 100%;
+        margin-right: 0;
+    }
+    .btn-c {
+        border-radius: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    .btn-d {
+        border-radius: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+}
